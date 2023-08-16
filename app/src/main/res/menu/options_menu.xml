@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/MenuOptionProductos"
+        android:title="Productos" />
+    <item
+        android:id="@+id/MenuOptionServicios"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/MenuOptionSucursales"
+        android:title="Sucursales" />
+    <item
+        android:id="@+id/MenuOptionFavoritos"
+        android:title="@string/titulo_favoritos" />
+</menu>
