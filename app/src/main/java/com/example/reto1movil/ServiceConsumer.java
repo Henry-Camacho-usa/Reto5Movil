@@ -16,7 +16,7 @@ import org.json.JSONObject;
 
 public class ServiceConsumer {
     RequestQueue requestQueue;
-    private static final String URLGet = "https://gb9c30d75e6d169-mga63ta9e63ect6d.adb.sa-saopaulo-1.oraclecloudapps.com/ords/admin/CienPies/Shoes";
+    private static final String URLGet = "https://servicioApexOracle/tiendaZapatos";
     public ServiceConsumer(Context context){
         requestQueue = Volley.newRequestQueue(context);
         ObjectRequest(context);
